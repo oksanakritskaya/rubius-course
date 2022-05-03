@@ -1,0 +1,15 @@
+C:\Users\oksana.kritskaya\Studies\ConsoleApp1\Lesson4\bin\Debug\net6.0\Lesson4.exe
+C:\Users\oksana.kritskaya\Studies\ConsoleApp1\Lesson4\bin\Debug\net6.0\Lesson4.deps.json
+C:\Users\oksana.kritskaya\Studies\ConsoleApp1\Lesson4\bin\Debug\net6.0\Lesson4.runtimeconfig.json
+C:\Users\oksana.kritskaya\Studies\ConsoleApp1\Lesson4\bin\Debug\net6.0\Lesson4.dll
+C:\Users\oksana.kritskaya\Studies\ConsoleApp1\Lesson4\bin\Debug\net6.0\Lesson4.pdb
+C:\Users\oksana.kritskaya\Studies\ConsoleApp1\Lesson4\obj\Debug\net6.0\Lesson4.csproj.AssemblyReference.cache
+C:\Users\oksana.kritskaya\Studies\ConsoleApp1\Lesson4\obj\Debug\net6.0\Lesson4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oksana.kritskaya\Studies\ConsoleApp1\Lesson4\obj\Debug\net6.0\Lesson4.AssemblyInfoInputs.cache
+C:\Users\oksana.kritskaya\Studies\ConsoleApp1\Lesson4\obj\Debug\net6.0\Lesson4.AssemblyInfo.cs
+C:\Users\oksana.kritskaya\Studies\ConsoleApp1\Lesson4\obj\Debug\net6.0\Lesson4.csproj.CoreCompileInputs.cache
+C:\Users\oksana.kritskaya\Studies\ConsoleApp1\Lesson4\obj\Debug\net6.0\Lesson4.dll
+C:\Users\oksana.kritskaya\Studies\ConsoleApp1\Lesson4\obj\Debug\net6.0\refint\Lesson4.dll
+C:\Users\oksana.kritskaya\Studies\ConsoleApp1\Lesson4\obj\Debug\net6.0\Lesson4.pdb
+C:\Users\oksana.kritskaya\Studies\ConsoleApp1\Lesson4\obj\Debug\net6.0\Lesson4.genruntimeconfig.cache
+C:\Users\oksana.kritskaya\Studies\ConsoleApp1\Lesson4\obj\Debug\net6.0\ref\Lesson4.dll
