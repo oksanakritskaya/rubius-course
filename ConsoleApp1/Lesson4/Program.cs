@@ -16,12 +16,14 @@
                     int[] array = new int[size];
                     int i = 0;
 
+                    bool isParsed2 = false;
+
                     while (i < array.Length)
                     {
                         Console.Write($"{i}: ");
                         int res;
 
-                        bool isParsed2 = TryParse(Console.ReadLine(), out res);
+                        isParsed2 = TryParse(Console.ReadLine(), out res);
 
                         if (isParsed2)
                         {
@@ -32,7 +34,12 @@
                         else break;
                     }
 
-                    Console.WriteLine(String.Join(" ", array));
+                    if (isParsed2)
+                    {
+                        Array.Sort<int>(array);
+
+                        Console.WriteLine($"Second max value: {array[array.Length-2]}");
+                    }
                 }
                 else
                 {
