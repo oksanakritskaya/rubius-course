@@ -7,44 +7,43 @@
             Console.Write("Array size: ");
             int size;
 
-            bool isParsed = TryParse(Console.ReadLine(), out size);
+            if (!TryParse(Console.ReadLine(), out size))
+            {
+                return;
+            }
+
+            if (size < 0)
+            {
+                Console.WriteLine("Size of array should be > 0");
+                return;
+            }
+
+            int[] array = new int[size];
+            int i = 0;
+
+            bool isParsed = false;
+
+            while (i < array.Length)
+            {
+                Console.Write($"{i}: ");
+                int res;
+
+                isParsed = TryParse(Console.ReadLine(), out res);
+
+                if (isParsed)
+                {
+                    Console.WriteLine("Success");
+                    array[i] = res;
+                    ++i;
+                }
+                else break;
+            }
 
             if (isParsed)
             {
-                if (size > 0)
-                {
-                    int[] array = new int[size];
-                    int i = 0;
+                Array.Sort<int>(array);
 
-                    bool isParsed2 = false;
-
-                    while (i < array.Length)
-                    {
-                        Console.Write($"{i}: ");
-                        int res;
-
-                        isParsed2 = TryParse(Console.ReadLine(), out res);
-
-                        if (isParsed2)
-                        {
-                            Console.WriteLine("Success");
-                            array[i] = res;
-                            ++i;
-                        }
-                        else break;
-                    }
-
-                    if (isParsed2)
-                    {
-                        Array.Sort<int>(array);
-
-                        Console.WriteLine($"Second max value: {array[array.Length-2]}");
-                    }
-                }
-                else
-                {
-                    Console.WriteLine("Size of array should be > 0");
-                }
+                Console.WriteLine($"Second max value: {array[array.Length - 2]}");
             }
         }
 
